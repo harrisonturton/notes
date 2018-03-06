@@ -50,16 +50,41 @@ mov r0, 5    @ Load 5 into r0
 add r0, 3    @ Add 3 to r0, which is now 5.
 ```
 
+#### Program Counter
+
+How does the computer know which instruction to execute? It checks the `pc` \(program counter\) register, and goes to the data at that point. Every time an instruction is completed, the `pc` register is incremented, and the program performs the next operation.
+
+If we change the `pc` register ourselves we can alter how the program is run.
+
 #### Labelling & Branching
 
-Assembler is a linear language, i.e. the instructions run from top to bottom. This is pretty restrictive -- how do we perform loops? This is where labelling & branching comes in handy. 
+Assembler is a linear language, i.e. the instructions run from top to bottom. This is pretty restrictive -- how do we perform loops? This is where labelling & branching comes in handy.
+
+```assembly
+main:
+  mov r0, 0    @ Init r0 with 0
+loop:
+  add r0, 1    @ Increment r0
+  b loop       @ Jump to beginning of loop
+```
+
+When the program reaches `b loop`, it sets the `pc` register to be `loop`, and so the programs jumps to that location. This creates an infinite loop. We can break out of it but branching to a different statement.
+
+#### Conditional Operations
+
+```assembly
+mov r0, 5
+cmp r0, 5
+beq main
+```
+
+#### Subroutines
 
 ```
-main:
-    mov r0, 0    @ Init r0 with 0
-loop:
-    add r0, 1    @ Increment r0
-    b loop       @ Jump to beginning of loop
+bl subroutine
+subroutine:
+  ...
+  bx lr
 ```
 
 
