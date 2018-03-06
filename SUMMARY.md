@@ -6,4 +6,7 @@
 ## Programming
 
 * [Assembly](programming/assembly.md)
+  * [Registers](registers.md)
+
+
 
