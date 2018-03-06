@@ -1,3 +1,4 @@
-# My Awesome Book
+# Notes
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This Gitbook is an easy place to collate my notes for classes, projects, blog posts & everyday life.
+
