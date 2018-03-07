@@ -110,3 +110,19 @@ git checkout HEAD <filename>
 
 This will revert the file to the commit specified by `HEAD`.
 
+---
+
+## Shortcuts
+
+```
+git config --global alias.<short> <long>
+```
+
+E.g. use `git config --global alias.cob "checkout -b"`
+
+
+
+
+
+
+

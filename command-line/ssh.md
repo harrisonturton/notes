@@ -11,7 +11,25 @@ It is intended to provide secure communication between two untrusted hosts over 
 3. A secret session key is agreed upon
 4. Connection is made
 
+#### Authorised Users
 
+The `~/.ssh/authorized_keys` file holds a list of public keys that can log in as a user.
+
+## Usage
+
+```
+ssh u6386433@partch.anu.edu.au
+```
+
+
+
+---
+
+## SCP
+
+```
+scp <local-file> u6386433@partch.anu.edu.au:~/some-directory/
+```
 
 
 
