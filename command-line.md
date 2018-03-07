@@ -1,4 +1,4 @@
-# Git
+## Git
 
 ## Branching
 
@@ -16,7 +16,13 @@ To list all remote branches, run `git branch -a`
 git branch <name>
 ```
 
-To simultaneously create & checkout a new branch, run `git checkout -b <name>`.
+To simultaneously create & checkout a new branch, run :
+
+```
+git checkout -b <name>
+```
+
+By default, this branches from the current `HEAD` ref. Use `git checkout -b <new-branch> <existing-branch>` to branch from a different branch.
 
 #### Deleting a Branch
 
@@ -35,8 +41,6 @@ To delete a remote branch, run `git push origin --delete <name>`
 ## Moving the HEAD
 
 We move between commits by moving the `HEAD` - a reference to a commit. The files we see are determined by which commit the `HEAD` is pointing to.
-
-
 
 #### Moving to a Branch
 
@@ -60,5 +64,27 @@ This is the same as `git checkout <hash>` , but uses a `tag` as an alias for the
 
 ---
 
+## Reverting Changes
 
+#### Changing a commit
+
+```
+git commit --amend
+```
+
+To change the previous commit, add you new changes, and `git commit --amend`. If you don't need to change the commit message, you can use the `--no-edit` flag.
+
+If you only want to change the commit message, simply run `git commit --amend -m "New Message"`.
+
+#### Undoing a commit with \`git checkout\`
+
+Use `git checkout` to go to the last valid commit. This should put you in the "Detached HEAD" state. Run `git checkout -b <name>` to branch from the valid commit. You can start making edits from here, and 'forget' about the invalid commits \(which will be orphaned and cleared\).
+
+#### Undoing filelevel changes with \`git checkout\`
+
+```
+git checkout HEAD <filename>
+```
+
+To revert to the latest commit, use `HEAD`. To revert to the previous commit use `HEAD~`,  and use `HEAD~n` to revert further back.
 
