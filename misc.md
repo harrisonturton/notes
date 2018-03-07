@@ -73,6 +73,21 @@ find . -name <filename regex>
 
 e.g. `find . -name *.go` to find all the go files underneath the current directory
 
+## Processes
+
+**List Processes**
+
+```
+ps -e
+```
+
+**Kill Processes**
+
+```
+kill -s <PID>
+```
+
+
 ## Sed
 
 ```
