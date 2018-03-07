@@ -40,7 +40,5 @@ This is a 'safe' operation. Git won't let you delete a branch with unmerged chan
 
 To force delete a branch \(e.g. if you don't care about the changes\), run `git branch -D <name>`
 
-
-
-
+To delete a remote branch, run `git push origin --delete <name>`
 
