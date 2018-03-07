@@ -3,6 +3,7 @@
 ## Notes
 
 * [Introduction](README.md)
+* [Misc](misc.md)
 
 ## Software
 
@@ -15,6 +16,4 @@
     * [Operations](instructions.md)
     * [Branching](branching.md)
 * [Theory](theory.md)
-
-
 
