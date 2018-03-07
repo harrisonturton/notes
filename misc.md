@@ -2,8 +2,6 @@
 
 These are useful commandline programs, but are small enough to not require a whole notes page.
 
-## Piping
-
 ## Redirection & Double-Redirection
 
 ```
