@@ -42,6 +42,8 @@ To delete a remote branch, run `git push origin --delete <name>`
 
 We move between commits by moving the `HEAD` - a reference to a commit. The files we see are determined by which commit the `HEAD` is pointing to.
 
+`HEAD` points to the current ref, `HEAD~` points to the previous commit, and `HEAD~n` points to the _nth_ previous commit.
+
 #### Moving to a Branch
 
 ```
@@ -60,7 +62,7 @@ This can move the `HEAD` ref to a previous commit. This will put you into a "det
 git checkout <tag>
 ```
 
-This is the same as `git checkout <hash>` , but uses a `tag` as an alias for the hash.
+This is the same as `git checkout <hash>` , but uses a `tag`  alias for the hash.
 
 ---
 
@@ -76,9 +78,29 @@ To change the previous commit, add you new changes, and `git commit --amend`. If
 
 If you only want to change the commit message, simply run `git commit --amend -m "New Message"`.
 
-#### Undoing a commit with \`git checkout\`
+#### Using \`git checkout\`
 
 Use `git checkout` to go to the last valid commit. This should put you in the "Detached HEAD" state. Run `git checkout -b <name>` to branch from the valid commit. You can start making edits from here, and 'forget' about the invalid commits \(which will be orphaned and cleared\).
+
+#### Using \`git revert\`
+
+```
+git revert HEAD
+```
+
+This will create a commit reversing the changes. This is best for public commits, as it will show in the history. If you want to revert the changes without commiting, you can run `git revert HEAD --no-commit`
+
+#### Using \`git reset\`
+
+```
+git reset HEAD~
+```
+
+Reset to the previous commit.
+
+* `--soft` The staged snapshot and working directory are not affected.
+* `--mixed` \(default\) The staged snapshot matches the specified commit.
+* `--hard` The staged snapshot & working directory matches the specified commit.
 
 #### Undoing filelevel changes with \`git checkout\`
 
@@ -86,5 +108,5 @@ Use `git checkout` to go to the last valid commit. This should put you in the "D
 git checkout HEAD <filename>
 ```
 
-To revert to the latest commit, use `HEAD`. To revert to the previous commit use `HEAD~`,  and use `HEAD~n` to revert further back.
+This will revert the file to the commit specified by `HEAD`.
 
