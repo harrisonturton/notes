@@ -8,7 +8,7 @@
 
 * [Terminal](command-line.md)
   * [Git](command-line/git.md)
-  * SSH
+  * [SSH](command-line/ssh.md)
 * [Languages](languages.md)
   * [Assembly](programming/assembly.md)
     * [Registers](registers.md)

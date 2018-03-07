@@ -10,13 +10,6 @@ By default you cannot push to an empty git repo. To allow this, initialize with 
 
 #### Basics
 
-| Behaviour | Command |
-| :--- | :--- |
-| Initialize repo | `git init` |
-| Stage files | `git add <filename>` |
-| Stage all new & modified files | `git add .` |
-| Commit changes | `git commit -m "commit message"` |
-|  |  |
 
 #### Branching
 
