@@ -12,17 +12,39 @@
 | Stage all new & modified files \(but not deleted\) | `git add .` |
 | Commit changes | `git commit -m "Commit message"` |
 
-
-
 ## Branching
+
+#### Listing Branches
+
+```
+git branch
+```
+
+To list all remote branches, run `git branch -a`
 
 #### Creating a Branch
 
-To create a new branch, run `git branch <name>.`
+```
+git branch <name>
+```
 
-To create & checkout a new branch, run `git checkout -b <name>`.
+To simultaneously create & checkout a new branch, run `git checkout -b <name>`.
 
-#### Deleteing a Branch
+#### Deleting a Branch
+
+```
+git branch -d <name>
+```
+
+This is a 'safe' operation. Git won't let you delete a branch with unmerged changes.
+
+To force delete a branch \(e.g. if you don't care about the changes\), run `git branch -D <name>`
+
+#### Renaming a Branch
+
+```
+git branch -m <name>
+```
 
 
 
@@ -31,7 +53,6 @@ To create & checkout a new branch, run `git checkout -b <name>`.
 ```
 # Git
 ```
-
 
     Git is a decentralised version control system.
 
@@ -56,12 +77,6 @@ To create & checkout a new branch, run `git checkout -b <name>`.
 
 
     #### Reverting Changes
-
-
-
-
-
-
 
 
 
