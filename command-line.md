@@ -1,17 +1,5 @@
 # Git
 
-#### Basics
-
-| Behaviour | Command |
-| :--- | :--- |
-| Initialize new repository | `git init` |
-| List branches | `git branch` |
-| Create a new branch | `git branch <branch-name>` |
-| Checkout \(enter\) a branch | `checkout <branch-name>` |
-| Create & checkout a new branch | `git checkout -b <name>` |
-| Stage all new & modified files \(but not deleted\) | `git add .` |
-| Commit changes | `git commit -m "Commit message"` |
-
 ## Branching
 
 #### Listing Branches
@@ -41,4 +29,36 @@ This is a 'safe' operation. Git won't let you delete a branch with unmerged chan
 To force delete a branch \(e.g. if you don't care about the changes\), run `git branch -D <name>`
 
 To delete a remote branch, run `git push origin --delete <name>`
+
+---
+
+## Moving the HEAD
+
+We move between commits by moving the `HEAD` - a reference to a commit. The files we see are determined by which commit the `HEAD` is pointing to.
+
+
+
+#### Moving to a Branch
+
+```
+git checkout <branch>
+```
+
+This will move the `HEAD` ref to a different branch, and the files will change to match the files in this branch.
+
+```
+git checkout <hash>
+```
+
+This can move the `HEAD` ref to a previous commit. This will put you into a "detatched head" state, where you can commit & make changes without affecting downstream commits & branches.
+
+```
+git checkout <tag>
+```
+
+This is the same as `git checkout <hash>` , but uses a `tag` as an alias for the hash.
+
+---
+
+
 
