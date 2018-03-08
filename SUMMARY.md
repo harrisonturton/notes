@@ -27,3 +27,7 @@
 
 ## COMP2420
 
+## MATH1005
+
+* [Logic](math1005/logic.md)
+
