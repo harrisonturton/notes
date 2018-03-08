@@ -15,7 +15,7 @@
     * [Registers](registers.md)
     * [Operations](instructions.md)
     * [Branching](branching.md)
+    * [Bitwise Instructions](bitwise-instructions.md)
+    * [Addresses](addresses.md)
 * [Theory](theory.md)
-
-
 
