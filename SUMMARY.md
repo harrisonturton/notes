@@ -20,3 +20,7 @@
     * [Load-Store Architecture](load-store-architecture.md)
 * [Theory](theory.md)
 
+## COMP2100
+
+* [SSH](comp2100/ssh.md)
+

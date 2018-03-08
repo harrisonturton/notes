@@ -27,7 +27,7 @@ finish:
 1. Assembler
 2. Linker
    1. Changes labels to memory addresses
-   2. Performs Memory Segmentation
+   2. Performs memory segmentation \(See [Memory](/addresses.md)\)
 
 
 

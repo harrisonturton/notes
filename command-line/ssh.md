@@ -21,7 +21,7 @@ The `~/.ssh/authorized_keys` file holds a list of public keys that can log in as
 ssh u6386433@partch.anu.edu.au
 ```
 
-#### Port Forwarding
+#### Tunneling / Port Forwarding
 
 ```
 ssh -L 1234:localhost:80 myname@mycomputeripaddress
