@@ -42,6 +42,8 @@ $$p\iff q \equiv (p\implies q)\wedge (q \implies p)\equiv (p\implies q)\wedge (\
 
 So $$p$$ if and only if $$q$$ is true only if `p` implies `q` and `q` implies `p`.
 
+If and only if means that you need to prove the statement & it's inverse.
+
 ### Valid Arguments
 
 p is **sufficient condition **for q means $$p \implies q$$
@@ -53,4 +55,10 @@ Since $$(\neg p \implies \neg q) \equiv (q \implies p)$$ we can say
 p is a **necessary condition **for q means $$q \implies p$$
 
 p is a **necessary & sufficient condition **for q means $$p \iff q$$
+
+### De Morgans Law
+
+$$\neg(P \wedge Q)\iff (\neg P) \vee (\neg Q)$$
+
+$$\neg (P \vee Q) \iff (\neg P) \wedge (\neg Q)$$
 
