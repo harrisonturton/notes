@@ -10,17 +10,20 @@
   * [Git](git.md)
   * [SSH](command-line/ssh.md)
   * [Misc](misc.md)
-* [Languages](languages.md)
-  * [Assembly](programming/assembly.md)
-    * [Registers](registers.md)
-    * [Operations](instructions.md)
-    * [Branching](branching.md)
-    * [Bitwise Ops](bitwise-instructions.md)
-    * [Memory](addresses.md)
-    * [Load-Store Architecture](load-store-architecture.md)
-* [Theory](theory.md)
+
+## COMP2300
+
+* [Assembly](programming/assembly.md)
+  * [Registers](registers.md)
+  * [Operations](instructions.md)
+  * [Branching](branching.md)
+  * [Bitwise Ops](bitwise-instructions.md)
+* [Memory](addresses.md)
+* [Load-Store Architecture](load-store-architecture.md)
 
 ## COMP2100
 
 * [SSH](comp2100/ssh.md)
+
+## COMP2420
 
