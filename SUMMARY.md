@@ -15,7 +15,8 @@
     * [Registers](registers.md)
     * [Operations](instructions.md)
     * [Branching](branching.md)
-    * [Bitwise Instructions](bitwise-instructions.md)
-    * [Addresses](addresses.md)
+    * [Bitwise Ops](bitwise-instructions.md)
+    * [Memory](addresses.md)
+    * [Load-Store Architecture](load-store-architecture.md)
 * [Theory](theory.md)
 

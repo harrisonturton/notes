@@ -42,5 +42,13 @@ ror
 
 Rotations will 'wrap around', i.e. bits that drop off appear back at the beginning of the bitstring.
 
+## Barrel Shifter
+
+```
+adds r0, r2, r1, lsl 4
+```
+
+The discoboard can do these shifts within a single instruction. This is what the `{, <shift>}` means in the cheatsheet.
+
 
 

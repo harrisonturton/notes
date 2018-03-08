@@ -22,5 +22,12 @@ finish:
   b finish    @ Branch to "finish"
 ```
 
+#### Build Pipeline
+
+1. Assembler
+2. Linker
+   1. Changes labels to memory addresses
+   2. Performs Memory Segmentation
+
 
 

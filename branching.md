@@ -29,5 +29,16 @@ subroutine:
   bx lr
 ```
 
+### Labels & the Linker
+
+```
+main:
+  add r0, 5
+```
+
+Labels are human-readable aliases for memory addresses. If labels didn't exist, we'd have to jump to a specific memory address with an instruction. Whenever our code was changed, we'd have to update all these addresses.
+
+Labels are not present in the machine-code. The **Linker** goes through and swaps labels for memory addresses.
+
 
 
