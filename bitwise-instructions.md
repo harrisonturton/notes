@@ -15,9 +15,32 @@ r3 == 0b1101
 
 #### Shifts
 
+**Logical Shift**
 
+```
+lsl @ logical shift left
+lsr @ logical shift right
+```
+
+Logical shifts will 'forget' the bits that drop off, and fill the empties with 0s.
+
+E.g. Shifting `1111` left by 3 becomes `1000`.
+
+**Arithmetic Shift**
+
+```
+asr
+```
+
+Arithmetic shifts will 'forget' bits that drop off, but fill empties with the last bit.
 
 #### Rotations
+
+```
+ror
+```
+
+Rotations will 'wrap around', i.e. bits that drop off appear back at the beginning of the bitstring.
 
 
 
