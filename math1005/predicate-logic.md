@@ -15,7 +15,7 @@ A predicate can be turned into a statement by either:
 
 | Quantifier | Symbol | Meaning |
 | :--- | :--- | :--- |
-| Universal Quantifier | $$\forall x$$ | Every $$x$$ ... \(Could be none\)$$$$ |
+| Universal Quantifier | $$\forall x$$ | Every $$x$$ ... \(Could be none\) |
 | Existential Quantifier | $$\exists x$$ | There is **at least one **$$x$$ that ... |
 | Unique Existential Quantifier | $$!\exists x$$ | There is a **unique **$$x$$ that ... |
 
