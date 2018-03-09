@@ -2,7 +2,7 @@
 
 ### Making Tables
 
-```sql
+```SQL
 CREATE TABLE student (
     name VARCHAR(30),
     email VARCHAR(50),
