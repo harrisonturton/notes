@@ -11,7 +11,7 @@ CREATE TABLE student (
 
 ### Inserting Data
 
-```
+```mysql
 INSERT INTO student (name, email) VALUES
     ('Harry', 'harrisonturton@gmail.com'),
     ('John', 'john@bigpond.com.au');
@@ -29,7 +29,7 @@ UPDATE student SET email='harryturton@gmail.com' WHERE name='Harry';
 SELECT <attributes> FROM <one or more relations> WHERE <conditions>;
 ```
 
-```
+```mysql
 SELECT * FROM students;
 SELECT name, id FROM students WHERE id='1234' OR name='harry'
 ```
@@ -47,12 +47,12 @@ JOIN / LEFT JOIN / INNER JOIN / RIGHT JOIN /  OUTER JOIN
 
 #### Inner Join
 
-```
+```mysql
 customers = { customer_id, first_name, email, address }
 orders    = { order_id, order_date, amount, customer_id }
 ```
 
-```
+```mysql
 SELECT order_date, order_amount
 FROM customers JOIN orders
     ON customers.customer_id = orders.customer_id
