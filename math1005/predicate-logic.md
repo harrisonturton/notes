@@ -4,8 +4,6 @@
 
 **Domain: **The domain of a predicate is the set of values the variables can take.
 
-
-
 $$G(x)\implies x^2+2=3 \text{ Domain: Numbers}$$
 
 ### Quantifiers

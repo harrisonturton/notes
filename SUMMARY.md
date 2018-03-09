@@ -29,5 +29,5 @@
 
 * [Logic](math1005/logic.md)
 * [Predicate Logic](math1005/predicate-logic.md)
-* Sets
+* [Sets](math1005/sets.md)
 
