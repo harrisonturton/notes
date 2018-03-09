@@ -29,6 +29,12 @@
 * [Android](comp2100/android.md)
   * [Fundamentals](comp2100/android/fundamentals.md)
 
+## COMP2420
+
+* [Data](comp2420/data.md)
+* [Databases](databses.md)
+* [SQL](comp2420/sql.md)
+
 ## MATH1005
 
 * [Logic](math1005/logic.md)
