@@ -25,7 +25,7 @@
 
 * [SSH](comp2100/ssh.md)
 * [Software Design](comp2100/software-design.md)
-* Design Patterns
+* [Design Patterns](comp2100/design-patterns.md)
 * [Android](comp2100/android.md)
   * [Fundamentals](comp2100/android/fundamentals.md)
 
