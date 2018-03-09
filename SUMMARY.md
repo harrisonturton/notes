@@ -28,4 +28,6 @@
 ## MATH1005
 
 * [Logic](math1005/logic.md)
+* [Predicate Logic](math1005/predicate-logic.md)
+* Sets
 
