@@ -9,8 +9,6 @@ CREATE TABLE student (
 );
 ```
 
-### 
-
 ### Select Statements
 
 ```
