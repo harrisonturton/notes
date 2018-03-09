@@ -4,7 +4,7 @@
 
 **Domain: **The domain of a predicate is the set of values the variables can take.
 
-$$P(x)\implies x\text{ can view this file. Domain: Users}$$
+
 
 $$G(x)\implies x^2+2=3 \text{ Domain: Numbers}$$
 
