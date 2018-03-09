@@ -31,11 +31,11 @@ When we think of OO design, the import things are:
 
 ### Software Quality Metrics
 
-In terms of _design, _there are three important metrics:
+In terms of \_design, \_there are three important metrics:
 
 1. **Coupling **- Bad. How connected different modules are. Minimise.
 2. **Cohesion **- Good. How closely different parts/functions within a single are related. Maximise.
-3. **Open/Closed** - The principle that code should be _open _for extension yet _closed _for modification.
+3. **Open/Closed** - The principle that code should be \_open \_for extension yet \_closed \_for modification.
 
 ### Classes & Interfaces
 
@@ -59,14 +59,6 @@ Each class should focus on one main aspect. Use Nouns for classes.
   * Expect to refactor and redesign your code
 * Look for patterns that repeat. Consider how these can be reduced, and if there is a better design approach.
 * Look for 'library' type code. Seperate it, and generalise it beyond this program.
-
-
-
-
-
- 
-
-
 
 
 
