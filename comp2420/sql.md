@@ -5,7 +5,7 @@
 ```mysql
 CREATE TABLE student (
     name VARCHAR(30),
-    email VARCHAR(50),
+    email VARCHAR(50)
 );
 ```
 
@@ -38,6 +38,25 @@ SELECT name, id FROM students WHERE id='1234' OR name='harry'
 
 ```mysql
 JOIN / LEFT JOIN / INNER JOIN / RIGHT JOIN /  OUTER JOIN
+```
+
+* **Inner Join **selects all_ _records from A _and_ B where the join condition is met
+* **Left Join **selects all records from A, along with records from B where the join condition is met
+* **Right Join** selects all records from B, along with records from A where the join condition is met
+* **Full Join **selects all records from A _and _B regardless of whether the condition is met
+
+#### Inner Join
+
+```
+customers = { customer_id, first_name, email, address }
+orders    = { order_id, order_date, amount, customer_id }
+```
+
+```
+SELECT order_date, order_amount
+FROM customers JOIN orders
+    ON customers.customer_id = orders.customer_id
+WHERE customer_id=3
 ```
 
 
