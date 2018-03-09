@@ -1,5 +1,9 @@
 {
-    "plugins": ["mathjax"],
+    "plugins": [
+        "mathjax",
+        "-highlight",
+        "sunlight-highlighter"
+    ],
      "structure": {
         "readme": "README.md"
     }
