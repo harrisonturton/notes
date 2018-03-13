@@ -3,6 +3,7 @@
 ## Notes
 
 * [Introduction](README.md)
+* [Lab 2](lab-2.md)
 
 ## Software
 
@@ -40,4 +41,8 @@
 * [Logic](math1005/logic.md)
 * [Predicate Logic](math1005/predicate-logic.md)
 * [Sets](math1005/sets.md)
+
+## COMP2420
+
+* [Data Science](comp2420/data-science.md)
 

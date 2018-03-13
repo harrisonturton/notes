@@ -40,10 +40,10 @@ SELECT name, id FROM students WHERE id='1234' OR name='harry'
 JOIN / LEFT JOIN / INNER JOIN / RIGHT JOIN /  OUTER JOIN
 ```
 
-* **Inner Join **selects all_ _records from A _and_ B where the join condition is met
+* **Inner Join **selects all_ \_records from A _and B where the join condition is met
 * **Left Join **selects all records from A, along with records from B where the join condition is met
 * **Right Join** selects all records from B, along with records from A where the join condition is met
-* **Full Join **selects all records from A _and _B regardless of whether the condition is met
+* **Full Join **selects all records from A and B regardless of whether the condition is met
 
 #### Inner Join
 
