@@ -24,7 +24,7 @@ An activity is a single 'focus point' of a user's interaction with the applicati
 
 An application will normally have a number of activities which the user moves between. A stack of activities is maintained, so when you complete the topmost one, you are returned to the activity you left from.
 
-Use _intents _to start/move to other activities.
+Use \_intents \_to start/move to other activities.
 
 `onCreate` typically does:
 
@@ -41,20 +41,5 @@ A **View** is a basic 'building block' of a GUI. It has an `onDraw` method that 
 
 A **ViewGroup **\(also a View\) allows you to aggregate multiple widgets into larger one. Layout components, like `ConstraintLayout` or `LinearLayout` extent the `ViewGroup` class.
 
-### Describes the application
-
-* Points to the Main Activity for the application.
-* Holds Application Components
-* Intent Filters
-* Permissions
-* Icons, Labels, etc
-* Required hardware & software features
-
-**Main Activity class**
-
-* Has an `onCreate` method, executed when program starts.
-  * The app's entry point.
-  * Sets the content view based on the layout in resources.
-* 
 
 
