@@ -14,6 +14,7 @@
 
 ## COMP2300
 
+* [Circuits](programming/circuits.md)
 * [Assembly](programming/assembly.md)
   * [Registers](registers.md)
   * [Operations](instructions.md)
