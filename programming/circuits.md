@@ -17,5 +17,7 @@ Note that this does not work in binary -- we cannot have '2'. But if you conside
 
 
 
+**Can be simplified to **$$s=a\oplus b$$ and $$c=a\wedge b$$.
+
 
 
