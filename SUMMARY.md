@@ -36,6 +36,8 @@
 * [Data](comp2420/data.md)
 * [Databases](databses.md)
 * [SQL](comp2420/sql.md)
+* [NumPy](comp2420/numpy.md)
+* [Pandas](comp2420/pandas.md)
 
 ## MATH1005
 
