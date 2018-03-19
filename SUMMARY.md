@@ -34,6 +34,7 @@
 ## COMP2420
 
 * [Data](comp2420/data.md)
+* [PSQL Cheatsheet](comp2420/psql-cheatsheet.md)
 * [Databases](databses.md)
 * [SQL](comp2420/sql.md)
 * [NumPy](comp2420/numpy.md)
