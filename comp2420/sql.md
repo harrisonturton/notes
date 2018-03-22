@@ -63,5 +63,20 @@ FROM customers JOIN orders
 WHERE customer_id=3
 ```
 
+#### With Statements
+
+You can factor subqueries using the `WITH` statement, and then reference them in the main query body. This is very useful for complex searches, and it can really help neaten the code.
+
+```my-sql
+-- Blue parts who cost less than $100
+WITH blue_parts AS (
+    SELECT *
+    FROM parts
+    WHERE color='blue')
+SELECT *
+FROM blue_parts
+WHERE price < 100
+```
+
 
 
